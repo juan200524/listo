@@ -1,0 +1,251 @@
+.pagina{
+color: #D8C4B6;
+}
+
+
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registro{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.perfil{
+    width: 300px;
+    padding:10px;
+}
+
+.registro h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.control{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+}
+
+.registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.registro a {
+    color: white;
+    text-decoration: none;
+}
+
+.registro a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.registro .boton {
+width: 100%;
+background: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+background-color: white;
+}
+
+/*header superior*/
+
+.header__superior{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+}
+.logo img{
+    width: 100px;
+}
+.search input{
+    width: 300px;
+    padding: 10px;
+}
+/*barra menu*/
+.container__menu{
+    width: 100%;
+    height: 70px;
+    background-color: #023877;
+    padding: 0px 20px;
+}
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+nav  ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: #000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+#selected{
+    transform: scale(1.1);
+    background-color: #000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/*submenu*/
+
+nav ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px ;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+
+nav ul li ul:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+nav ul li ul li a{
+    display: block;
+    color: #000;
+    padding: 6px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+
+nav ul li ul li a:hover{
+    background-color: magenta;
+    color: #000;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+/*imanesdelmenu*/
+
+.boro{
+    width: 200px;
+    
+}
+.trr{
+    background-color:#98FF98;
+    width: 600px;
+    border:2px;
+
+}
+
+.trrr{
+    background-color: #98FF98;
+    width: 600px;
+    height: 100px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:0 ;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+} 
+
+
+/*tablas*/
+   
+table, th, td{
+    border: 1px solid black;
+   background-color: #24303c;
+   color: white;
+   width: 700px;
+   height: 70px;
+}
+
+H1{
+    background-color: #5E9A9D;
+    color: #243C25;
+}
+
